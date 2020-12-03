@@ -1,5 +1,5 @@
 ﻿{
-  "DataConnectionString": "Data Source=eCom;Initial Catalog=NopCom;Integrated Security=True;Persist Security Info=False",
+  "DataConnectionString": "Data Source=devnopcom.database.windows.net;Initial Catalog=DevNopCom;Integrated Security=False;Persist Security Info=False;User ID=danishbaig26;Password=K@arachivm123",
   "DataProvider": "sqlserver",
   "RawDataSettings": {}
 }
