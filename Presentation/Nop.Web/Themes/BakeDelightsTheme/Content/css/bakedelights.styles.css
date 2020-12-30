@@ -5,6 +5,15 @@
  */
 
 /* Web Styles for Bake Delights Theme */
+@font-face {
+    font-family: 'CG Omega';
+    src: url('../fonts/CGOmega.eot');
+    src: url('../fonts/cgor45w.ttf') format('ttf'), url('../fonts/CGOmega.eot?#iefix') format('embedded-opentype'), url('../fonts/CGOmega.woff2') format('woff2'), url('../fonts/CGOmega.woff') format('woff'), url('../fonts/CGOmega.svg#CGOmega') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 body{font-family: 'Montserrat', sans-serif;background:#fff;color:#303133;}
 ul{margin:0px;padding:0px;}
 li{list-style:none;}
@@ -167,7 +176,7 @@ form#small-search-box-form .form-group {margin-bottom: 8px;}
 .title.sub-title{margin-bottom:70px;position: relative;text-align: center;}
 .title.sub-title::before {border-top: 1px solid #ccc;content: "";left: 0%;position: absolute;right:0%;top:125%;}
 .title.sub-title::after {background:url(../images/ribbon-bow.jpg) no-repeat;content: "";left: 47%;position: absolute;top:100%;height:50px;width:60px;}
-.title.sub-title strong {font-family: 'Marck Script', cursive;font-weight:700;font-size:30px;color:#303133;letter-spacing:2px;}
+.title.sub-title strong {font-family: 'CG Omega', cursive;font-weight:700;font-size:30px;color:#303133;letter-spacing:2px;}
 .title.sub-title img{margin:auto;display:block;}
 
 
@@ -230,12 +239,12 @@ form#small-search-box-form .form-group {margin-bottom: 8px;}
 .footer-upper{padding:30px 0px;border-bottom:1px solid #e5e5e5;}
 .newsletter-wrapper .title,.newsletter-email{text-align:center;}
 .newsletter-wrapper .title{padding:10px 0;}
-.newsletter-wrapper strong{text-align:center;font-size:30px;font-weight:bold;color:#fff;font-family: 'Marck Script', cursive;}
+.newsletter-wrapper strong{text-align:center;font-size:30px;font-weight:bold;color:#fff;font-family: 'CG Omega', cursive;}
 .newsletter-result-block{color: #fff;clear:both;text-align:center;float:left;width:100%;}
 .newsletter-validation{text-align:center;}
 .footer-middle{padding:35px 0px;background:url(../images/header_bg.png);}
 .footer-middle .title{margin-bottom:12px;padding-bottom: 12px;}
-.footer-middle .title strong{font-size:24px;color:#303133;font-family: 'Marck Script', cursive;}
+.footer-middle .title strong{font-size:24px;color:#303133;font-family: 'CG Omega', cursive;}
 .footer .footer-middle ul li a{color:#303133;text-transform:capitalize;margin-bottom:20px;display:inline-block;}
 .footer .footer-middle ul li a i{margin-right:8px;}
 .footer-middle ul li a:hover,.footer-middle ul li a:focus{background:transparent;color:#2d9c6d;}
@@ -359,11 +368,11 @@ div#newsletter-subscribe-block .options {text-align: center;clear: both;padding-
 
 /* BREADCRUMB STYLE */
 .breadcrumb-wrapper .breadcrumb{border:none;border-radius:0px;clear:both;text-align:center;margin-bottom:0;padding:20px;background-color:transparent;}
-.breadcrumb-wrapper .breadcrumb li a{font-family: 'Marck Script', cursive;color:#303133;font-size:30px;font-weight:700;text-decoration:none;}
+.breadcrumb-wrapper .breadcrumb li a{font-family: 'CG Omega', cursive;color:#303133;font-size:30px;font-weight:700;text-decoration:none;}
 .breadcrumb-wrapper .breadcrumb li a:hover{color:#2d9c6d;}
 .breadcrumb-wrapper .breadcrumb li:first-child a{color:#303133;font-size:30px;font-weight:700;text-decoration:none;}
 .breadcrumb-wrapper .breadcrumb li:first-child a:hover{color:#2d9c6d;}
-.breadcrumb-wrapper .breadcrumb li .current-item.active,.breadcrumb-wrapper .breadcrumb li .active{font-family: 'Marck Script', cursive;color:#2d9c6d;font-size:30px;font-weight:700;text-transform:capitalize;}
+.breadcrumb-wrapper .breadcrumb li .current-item.active,.breadcrumb-wrapper .breadcrumb li .active{font-family: 'CG Omega', cursive;color:#2d9c6d;font-size:30px;font-weight:700;text-transform:capitalize;}
 .breadcrumb-wrapper .breadcrumb > li + li::before,.breadcrumb-wrapper .breadcrumb > ol + ol::before{padding:0px 10px;color:#303133;}
 .breadcrumb-wrapper .breadcrumb li:first-child a span{font-size:0px;}
 .breadcrumb-wrapper .breadcrumb li:first-child a span i{font-size:30px;}
@@ -577,7 +586,7 @@ div#newsletter-subscribe-block .options {text-align: center;clear: both;padding-
 /* TOPICS(hero-unit) PAGE STYLE */
 .from-panel{margin-bottom:50px;background:#fff;}
 .shopping-cart-page .panel-heading{padding:0;margin-bottom:20px;}
-.page-title h1{font-size:30px; font-weight:700;color:#303133;margin:0;text-align:left;letter-spacing:2px;font-family: 'Marck Script', cursive;padding-bottom:10px;}
+.page-title h1{font-size:30px; font-weight:700;color:#303133;margin:0;text-align:left;letter-spacing:2px;font-family: 'CG Omega', cursive;padding-bottom:10px;}
 .page-title{margin-bottom:30px;padding:0;display:inline-block;}
 .page-title::after{content:"";background:#2d9c6d;width:30px;height:2px;position:absolute;left:15px;}
 .not-found-page ul li{list-style:none;margin-bottom:10px;}
